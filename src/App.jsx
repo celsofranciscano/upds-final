@@ -14,7 +14,7 @@ function App() {
     <>
     <Menu />
       <div className="grid gap-8 px-4 md:px-12 pt-20 ">
-        <details open  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
             Ejercicio Nº 1 
           </summary>
@@ -26,25 +26,25 @@ function App() {
           </summary>
           <ArbolTwo />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 3
           </summary>
           <ArbolThree />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 4
           </summary>
           <ArbolFour />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 5
           </summary>
           <ArbolFive />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details open  className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 6
           </summary>
