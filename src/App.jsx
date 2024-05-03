@@ -14,7 +14,7 @@ function App() {
     <>
     <Menu />
       <div className="grid gap-8 px-4 md:px-12 pt-20 ">
-        <details   className="rounded-md bg-blue-200 pb-4 px-4">
+        <details open  className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
             Ejercicio Nº 1 
           </summary>
@@ -62,7 +62,7 @@ function App() {
           </summary>
           <ArbolEight />
         </details>
-        <details open className="rounded-md bg-blue-200 pb-4 px-4">
+        <details  className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 9
           </summary>
