@@ -209,7 +209,7 @@ function ArbolFour() {
               .map((valor, index) => <li key={index}>{valor},</li>)}
         </ul>
       </section>
-      <section className="border grid grid-cols-3 col-span-2 gap-20 border-zinc-200 rounded-md shadow-md p-4">
+      <section className="border grid grid-cols-3 col-span-2 gap-4 border-zinc-200 rounded-md shadow-md p-4">
         <h1 className="text-xl col-span-3 text-center">Arbol Binario </h1>
         {dataArbol1 && imprimirArbolPorRecursividad(dataArbol1.raiz)}
         {dataArbol2 && imprimirArbolPorRecursividad(dataArbol2.raiz)}

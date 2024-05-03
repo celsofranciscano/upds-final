@@ -44,25 +44,25 @@ function App() {
           </summary>
           <ArbolFive />
         </details>
-        <details open  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 6
           </summary>
           <ArbolSix />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 7
           </summary>
           <ArbolSeven />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details   className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 8
           </summary>
           <ArbolEight />
         </details>
-        <details  className="rounded-md bg-blue-200 pb-4 px-4">
+        <details open className="rounded-md bg-blue-200 pb-4 px-4">
           <summary className="text-lg font-bold mt-4">
           Ejercicio Nº 9
           </summary>
